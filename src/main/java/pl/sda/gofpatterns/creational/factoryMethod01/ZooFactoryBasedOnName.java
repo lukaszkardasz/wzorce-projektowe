@@ -1,4 +1,4 @@
-package pl.sda.gofpatterns.creational.factoryMethod;
+package pl.sda.gofpatterns.creational.factoryMethod01;
 
 public class ZooFactoryBasedOnName implements ZooFactory {
     private final String name;

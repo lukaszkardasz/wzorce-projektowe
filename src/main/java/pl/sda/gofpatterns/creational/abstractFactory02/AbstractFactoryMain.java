@@ -1,4 +1,4 @@
-package pl.sda.gofpatterns.creational.abstractFactory;
+package pl.sda.gofpatterns.creational.abstractFactory02;
 
 class AbstractFactoryMain {
     public static void main(String[] args) {

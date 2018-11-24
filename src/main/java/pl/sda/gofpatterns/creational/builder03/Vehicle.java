@@ -1,4 +1,4 @@
-package pl.sda.gofpatterns.creational.builder;
+package pl.sda.gofpatterns.creational.builder03;
 
 import java.util.List;
 

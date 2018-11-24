@@ -13,11 +13,13 @@ public class AmericanVehicleBuilder implements VehicleBuilder {
         return new Vehicle(size, wheel);
     }
 
-    public void addWheel() {
+    public VehicleBuilder addWheel() {
         wheelList.add(new Wheel(23));
+        return this;
     }
 
-    public void setTank(int size) {
+    public VehicleBuilder setTank(int size) {
         this.size = size * 2;
+        return this;
     }
 }

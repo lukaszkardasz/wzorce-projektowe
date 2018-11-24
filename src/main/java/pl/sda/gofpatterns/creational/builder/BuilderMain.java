@@ -3,10 +3,7 @@ package pl.sda.gofpatterns.creational.builder;
 public class BuilderMain {
     public static void main(String[] args) {
         VehicleBuilder builder = new AmericanVehicleBuilder();
-        builder.setTank(100);
-        builder.addWheel();
-        builder.addWheel();
-        builder.addWheel();
+        builder.setTank(100).addWheel().addWheel().addWheel();
         Vehicle vehicle = builder.build();
         System.out.println(vehicle);
         builder.addWheel();

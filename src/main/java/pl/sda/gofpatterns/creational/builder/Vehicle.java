@@ -23,7 +23,7 @@ public class Vehicle {
     public String toString() {
         return "Vehicle{" +
                 "tankSize=" + tankSize +
-                ", wheel=" + wheel +
+                ", wheel=" + wheel.size() +
                 '}';
     }
 }
